@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <label class="name">{{name}}</label>
+      <label class="name">{{ $t('Category')}} {{name}}</label>
       <label>{{content}}</label>
       <ul>
         <li v-for="tutorial in tutorials">
