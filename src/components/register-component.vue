@@ -15,7 +15,7 @@
         </div>
         <div class="field-container">
             <label for="genre$">{{ $t('genre_title') }}</label>
-          <pv-dropdown v-model="selectedGender" :options="[$t('male_gender'),$t('female_gender')]"  :placeholder="$t('placeholder_genre')"/>
+          <pv-dropdown v-model="selectedGender" :options="[$t('male_gender'),$t('female_gender'),$t('other_gender')]"  :placeholder="$t('placeholder_genre')"/>
         </div>
          <div class="field-container">
                 <label for="last_namet$">{{ $t('last_name_title') }}</label>
